@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(26, 25, 25);
+    margin: 0;
+}
+#navi{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    }
+#navi h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px aqua;
+    
+}
+
+
+#navi nav a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);       
+}
+#navi nav a:hover{
+    color: aqua;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+#home mark{
+     background-color: aqua;
+     color: black;
+}
+#home h1,h3{
+    color: white;
+    text-align: center;
+}
+
+#home h1{
+
+    animation-name: slideleft;
+    animation-duration:2s ;
+     }
+     @keyframes slideleft{
+        from{transform: translateX(300%);}
+     }
+#home{
+    color: white;
+    text-align: center;
+
+}
+#himg{
+    width: 13.3%;
+    height: auto;
+    margin-left: 45%;
+    margin-top: 8%;
+    box-shadow: 0px 0px 6px aqua;
+   
+}
+#himg img{
+    box-shadow: 0px 0px 6px aqua;
+
+}
+
+#about{
+    color: white;
+    margin-left:35px ;
+    padding-top:3% ;
+    margin-right: 30px;
+    padding-right: 70px;
+    border: 1px solid   rgb(26, 25, 25);
+    
+    display: flow-root;
+}
+#about img{
+    float: right;
+    box-shadow: 0px 0px 6px aqua;
+}
+#about mark{
+    background-color: aqua;
+    color: black;
+}
+#about button{
+
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+
+#a1{
+    border: 1px solid aqua;
+    background-color: aqua;
+    padding: 2px;
+    width: 500px;
+    margin-bottom: 1%;
+    margin-left: 30px;
+    margin-top: 2%;
+
+}
+.b1{
+    border: 1px solid aqua;
+    background-color: aqua;
+    padding: 2px;
+    width: 500px;
+    margin-left: 60%;
+    margin-bottom: 5%;
+}
+#c1{
+    border: 1px solid aqua;
+    background-color: aqua;
+    padding: 2px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+
+#main
+{
+    color: white;
+    margin-left: 40% ;
+    font-size: xx-large;
+    padding-left: 75px;
+    padding-top: 40px;
+    height: 100px;
+    width: 150px;
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+#skills div:hover{
+
+    box-shadow: 0px 0px 7px aqua;
+    transform: translateX(25%);
+}
+
+#h2{
+    border: 1px solid rgb(26, 25, 25);
+   text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    }
+
+#contact .link{
+    color: white;
+    text-align: left;
+}
+#contact i:hover{
+    box-shadow: 0px 0px 9px aqua;
+}
+
+#foo{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
